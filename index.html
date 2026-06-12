@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Painel de Aprovação SEDES-DF - App de estudos com instalador Windows">
-    <meta name="theme-color" content="#1e40af">
-    <title>Painel de Aprovação SEDES-DF</title>
+    <meta name="description" content="Painel de Aprovação SEDES-DF - Sistema inteligente para gerenciamento de aprovações">
+    <meta name="theme-color" content="#0f172a">
+    <title>SEDES-DF | Painel de Aprovação</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <div class="nav-content">
+            <div class="nav-wrapper">
                 <div class="logo">
-                    <h1>🏛️ SEDES-DF</h1>
+                    <span class="logo-icon">◆</span>
+                    <h1>SEDES-DF</h1>
                 </div>
                 <ul class="nav-links">
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#features">Funcionalidades</a></li>
-                    <li><a href="#installation">Instalação</a></li>
+                    <li><a href="#features">Recursos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#download">Download</a></li>
                     <li><a href="#contact">Contato</a></li>
                 </ul>
             </div>
@@ -27,14 +28,30 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h2>Painel de Aprovação SEDES-DF</h2>
-                <p>Aplicação inteligente para gerenciamento de aprovações</p>
-                <div class="hero-buttons">
-                    <a href="#installation" class="btn btn-primary">Instalar Agora</a>
-                    <a href="https://github.com/rodrigocontatomr-coder/painel-aprovacao-sedes" class="btn btn-secondary">Ver no GitHub</a>
+                <div class="hero-text">
+                    <h2 class="hero-title">Sistema Inteligente de Aprovações</h2>
+                    <p class="hero-subtitle">Gerenciamento eficiente e seguro de documentos para SEDES-DF</p>
+                    <div class="hero-cta">
+                        <a href="#download" class="btn btn-primary">
+                            <span>↓ Baixar Agora</span>
+                        </a>
+                        <a href="https://github.com/rodrigocontatomr-coder/painel-aprovacao-sedes" class="btn btn-secondary">
+                            <span>→ GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="visual-card">
+                        <div class="card-header"></div>
+                        <div class="card-content">
+                            <div class="line short"></div>
+                            <div class="line"></div>
+                            <div class="line short"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -43,91 +60,126 @@
     <!-- Features Section -->
     <section id="features" class="features">
         <div class="container">
-            <h2>✨ Funcionalidades</h2>
+            <h2 class="section-title">Recursos Principais</h2>
             <div class="features-grid">
-                <div class="feature-card">
+                <div class="feature">
                     <div class="feature-icon">📋</div>
                     <h3>Gerenciamento de Documentos</h3>
-                    <p>Organize e aprove documentos com facilidade</p>
+                    <p>Organize, monitore e aprove documentos de forma centralizada e eficiente</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature">
                     <div class="feature-icon">⚡</div>
-                    <h3>Interface Rápida</h3>
-                    <p>Responsiva e otimizada para melhor desempenho</p>
+                    <h3>Processamento Rápido</h3>
+                    <p>Interface otimizada para máxima produtividade e menor tempo de resposta</p>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔒</div>
-                    <h3>Segurança</h3>
-                    <p>Proteção de dados e controle de acesso</p>
+                <div class="feature">
+                    <div class="feature-icon">🔐</div>
+                    <h3>Segurança em Primeiro</h3>
+                    <p>Proteção de dados com criptografia e controle de acesso granular</p>
                 </div>
-                <div class="feature-card">
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <h3>Relatórios Detalhados</h3>
+                    <p>Análises completas e visualizações de dados em tempo real</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Fluxos Customizáveis</h3>
+                    <p>Configure workflows adaptados às necessidades da sua organização</p>
+                </div>
+                <div class="feature">
                     <div class="feature-icon">💻</div>
-                    <h3>Windows Ready</h3>
-                    <p>Instalador automático para Windows</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🎨</div>
-                    <h3>Design Moderno</h3>
-                    <p>Interface intuitiva e agradável</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📱</div>
-                    <h3>Responsivo</h3>
-                    <p>Funciona em qualquer dispositivo</p>
+                    <h3>Interface Moderna</h3>
+                    <p>Design intuitivo e responsivo para qualquer dispositivo</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Installation Section -->
-    <section id="installation" class="installation">
+    <!-- About Section -->
+    <section id="about" class="about">
         <div class="container">
-            <h2>🚀 Como Instalar</h2>
-            <div class="installation-steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h3>Baixar Instalador</h3>
-                    <p>Acesse o repositório do GitHub e faça o download do instalador Windows</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre o Painel</h2>
+                    <p>O Painel de Aprovação SEDES-DF é uma solução profissional desenvolvida para otimizar o processo de aprovação de documentos nas secretarias de educação.</p>
+                    <p>Com uma interface intuitiva e recursos avançados, o sistema garante que todos os documentos sejam processados de forma segura e eficiente.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Seguro</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Disponível</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label">Escalável</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h3>Executar Instalador</h3>
-                    <p>Execute o arquivo .exe e siga as instruções do assistente</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h3>Confirmar Instalação</h3>
-                    <p>Clique em "Instalar" e aguarde a conclusão do processo</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">4</div>
-                    <h3>Acessar Painel</h3>
-                    <p>Abra a aplicação e comece a usar o painel de aprovações</p>
+                <div class="about-image">
+                    <div class="feature-box">
+                        <div class="box-item">Documentos</div>
+                        <div class="box-item active">Aprovados</div>
+                        <div class="box-item">Pendentes</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Requirements Section -->
-    <section class="requirements">
+    <!-- Download Section -->
+    <section id="download" class="download">
         <div class="container">
-            <h2>📋 Requisitos do Sistema</h2>
-            <div class="requirements-grid">
-                <div class="req-item">
-                    <strong>Sistema Operacional:</strong>
-                    <p>Windows 7 ou superior</p>
+            <h2 class="section-title">Como Começar</h2>
+            <div class="download-steps">
+                <div class="step-item">
+                    <div class="step-number">01</div>
+                    <h3>Requisitos</h3>
+                    <p>Windows 7+, Navegador moderno, 100MB espaço</p>
                 </div>
-                <div class="req-item">
-                    <strong>Navegador:</strong>
-                    <p>Chrome, Edge ou Firefox (moderno)</p>
+                <div class="step-item">
+                    <div class="step-number">02</div>
+                    <h3>Download</h3>
+                    <p>Baixe o instalador do repositório GitHub</p>
                 </div>
-                <div class="req-item">
-                    <strong>Espaço em Disco:</strong>
-                    <p>Mínimo 100MB</p>
+                <div class="step-item">
+                    <div class="step-number">03</div>
+                    <h3>Instalação</h3>
+                    <p>Execute e siga o assistente de instalação</p>
                 </div>
-                <div class="req-item">
-                    <strong>Conexão:</strong>
-                    <p>Internet recomendada</p>
+                <div class="step-item">
+                    <div class="step-number">04</div>
+                    <h3>Iniciar</h3>
+                    <p>Abra o aplicativo e comece a usar</p>
+                </div>
+            </div>
+            <div class="download-cta">
+                <a href="https://github.com/rodrigocontatomr-coder/painel-aprovacao-sedes/releases" class="btn btn-large">
+                    ↓ Baixar Versão Mais Recente
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-stack">
+        <div class="container">
+            <h2 class="section-title">Construído Com</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <span class="tech-badge">HTML5</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-badge">CSS3</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-badge">JavaScript</span>
+                </div>
+                <div class="tech-item">
+                    <span class="tech-badge">Windows</span>
                 </div>
             </div>
         </div>
@@ -136,19 +188,28 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>📞 Contato e Suporte</h2>
-            <div class="contact-info">
-                <p>Dúvidas ou sugestões?</p>
-                <a href="https://github.com/rodrigocontatomr-coder" class="btn btn-primary">Visite nosso GitHub</a>
+            <div class="contact-content">
+                <h2>Dúvidas?</h2>
+                <p>Entre em contato conosco ou visite nosso repositório no GitHub</p>
+                <div class="contact-links">
+                    <a href="https://github.com/rodrigocontatomr-coder" class="contact-btn">
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:rodrigocontatomr@gmail.com" class="contact-btn">
+                        <span>Email</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Painel de Aprovação SEDES-DF. Desenvolvido com ❤️</p>
-            <p><a href="https://github.com/rodrigocontatomr-coder/painel-aprovacao-sedes">Repositório GitHub</a></p>
+            <div class="footer-content">
+                <p>&copy; 2026 SEDES-DF Painel de Aprovação. Todos os direitos reservados.</p>
+                <p><a href="https://github.com/rodrigocontatomr-coder/painel-aprovacao-sedes">Repositório</a></p>
+            </div>
         </div>
     </footer>
 
